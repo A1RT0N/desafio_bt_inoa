@@ -7,6 +7,7 @@ Avisar, via e-mail, caso a cotação de um ativo da B3 caia mais do que certo n�
 **Twelve Data (REST)**  
 - Suporte à B3 gratuito  
 - Endpoint simples para obter preço atual  
+- Mais informações em: https://twelvedata.com/docs#overview
 
 ## Arquitetura
 - **Core**: regras de negócio.  
