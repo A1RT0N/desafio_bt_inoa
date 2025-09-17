@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ayrton/Documents/INOA/desafio_bt_inoa/StockAlert.Core/StockAlert.Core.csproj",
+      "projectUniqueName": "/home/ayrton/Documents/INOA/desafio_bt_inoa/src/StockAlert.Core/StockAlert.Core.csproj",
       "projectName": "StockAlert.Core",
-      "projectPath": "/home/ayrton/Documents/INOA/desafio_bt_inoa/StockAlert.Core/StockAlert.Core.csproj",
+      "projectPath": "/home/ayrton/Documents/INOA/desafio_bt_inoa/src/StockAlert.Core/StockAlert.Core.csproj",
       "packagesPath": "/home/ayrton/.nuget/packages/",
-      "outputPath": "/home/ayrton/Documents/INOA/desafio_bt_inoa/StockAlert.Core/obj/",
+      "outputPath": "/home/ayrton/Documents/INOA/desafio_bt_inoa/src/StockAlert.Core/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/ayrton/.nuget/NuGet/NuGet.Config"

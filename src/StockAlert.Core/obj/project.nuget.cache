@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+OtyMRv+P+c=",
+  "dgSpecHash": "0S+tiBh1Sl4=",
   "success": true,
-  "projectFilePath": "/home/ayrton/Documents/INOA/desafio_bt_inoa/StockAlert.Core/StockAlert.Core.csproj",
+  "projectFilePath": "/home/ayrton/Documents/INOA/desafio_bt_inoa/src/StockAlert.Core/StockAlert.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

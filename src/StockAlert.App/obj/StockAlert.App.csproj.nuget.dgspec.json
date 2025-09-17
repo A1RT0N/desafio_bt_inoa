@@ -1,17 +1,96 @@
 {
   "format": 1,
   "restore": {
-    "/home/ayrton/Documents/INOA/desafio_bt_inoa/StockAlert.App/StockAlert.App.csproj": {}
+    "/home/ayrton/Documents/INOA/desafio_bt_inoa/src/StockAlert.App/StockAlert.App.csproj": {}
   },
   "projects": {
-    "/home/ayrton/Documents/INOA/desafio_bt_inoa/StockAlert.App/StockAlert.App.csproj": {
+    "/home/ayrton/Documents/INOA/desafio_bt_inoa/src/StockAlert.App/StockAlert.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ayrton/Documents/INOA/desafio_bt_inoa/StockAlert.App/StockAlert.App.csproj",
+        "projectUniqueName": "/home/ayrton/Documents/INOA/desafio_bt_inoa/src/StockAlert.App/StockAlert.App.csproj",
         "projectName": "StockAlert.App",
-        "projectPath": "/home/ayrton/Documents/INOA/desafio_bt_inoa/StockAlert.App/StockAlert.App.csproj",
+        "projectPath": "/home/ayrton/Documents/INOA/desafio_bt_inoa/src/StockAlert.App/StockAlert.App.csproj",
         "packagesPath": "/home/ayrton/.nuget/packages/",
-        "outputPath": "/home/ayrton/Documents/INOA/desafio_bt_inoa/StockAlert.App/obj/",
+        "outputPath": "/home/ayrton/Documents/INOA/desafio_bt_inoa/src/StockAlert.App/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ayrton/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/ayrton/Documents/INOA/desafio_bt_inoa/src/StockAlert.Core/StockAlert.Core.csproj": {
+                "projectPath": "/home/ayrton/Documents/INOA/desafio_bt_inoa/src/StockAlert.Core/StockAlert.Core.csproj"
+              },
+              "/home/ayrton/Documents/INOA/desafio_bt_inoa/src/StockAlert.Infra/StockAlert.Infra.csproj": {
+                "projectPath": "/home/ayrton/Documents/INOA/desafio_bt_inoa/src/StockAlert.Infra/StockAlert.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/256/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/ayrton/Documents/INOA/desafio_bt_inoa/src/StockAlert.Core/StockAlert.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ayrton/Documents/INOA/desafio_bt_inoa/src/StockAlert.Core/StockAlert.Core.csproj",
+        "projectName": "StockAlert.Core",
+        "projectPath": "/home/ayrton/Documents/INOA/desafio_bt_inoa/src/StockAlert.Core/StockAlert.Core.csproj",
+        "packagesPath": "/home/ayrton/.nuget/packages/",
+        "outputPath": "/home/ayrton/Documents/INOA/desafio_bt_inoa/src/StockAlert.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ayrton/.nuget/NuGet/NuGet.Config"
@@ -42,6 +121,74 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/256/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/ayrton/Documents/INOA/desafio_bt_inoa/src/StockAlert.Infra/StockAlert.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ayrton/Documents/INOA/desafio_bt_inoa/src/StockAlert.Infra/StockAlert.Infra.csproj",
+        "projectName": "StockAlert.Infra",
+        "projectPath": "/home/ayrton/Documents/INOA/desafio_bt_inoa/src/StockAlert.Infra/StockAlert.Infra.csproj",
+        "packagesPath": "/home/ayrton/.nuget/packages/",
+        "outputPath": "/home/ayrton/Documents/INOA/desafio_bt_inoa/src/StockAlert.Infra/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ayrton/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/ayrton/Documents/INOA/desafio_bt_inoa/src/StockAlert.Core/StockAlert.Core.csproj": {
+                "projectPath": "/home/ayrton/Documents/INOA/desafio_bt_inoa/src/StockAlert.Core/StockAlert.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
