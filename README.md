@@ -83,4 +83,6 @@ dotnet run --project src/StockAlert.App PETR4 22.67 22.59
 dotnet test
 ```
 
+- Caso não queira executar com seus próprios dados, deixo em 'ayrton_application.tar.gz' a minha aplicação. Basta descompactar e rodar os comendos de execução.
+
 Agradeço à Inoa pelo desafio. Foi bem interessante realizá-lo e poder ver seu funcionamento.
